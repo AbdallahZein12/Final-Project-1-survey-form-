@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset=utf-8>
+  <meta name=viewport,  width=device-width, initial- scale=1.0>
+  <title >Sports Survey</title>
+  <link href="styles.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class=background-img><img src="https://leverageedublog.s3.ap-south-1.amazonaws.com/blog/wp-content/uploads/2019/06/23160820/Career-in-Sports-01.png"></div>
+<div class=survey-form>
+  <header class="header">
+    <h1 id="title">Your Favorite Sport!</h1>
+    <p>A short survey</p>
+  </header>
+  <hr>
+  <main>
+    <section >
+      <h2>Welcome!</h2>
+      <p class="section1" id="description">This is a <em>fun</em> survey to determine what appeals most to our students. To further understand what sports students would really like to be added in our weekly activitis we created this survey to help us with that!</p>
+
+      <p class="section1">Are you ready? :)</p>
+      <img alt="smirking-dog" class="smirk" src="https://64.media.tumblr.com/a96b3baa1ca6ec9683da73f2b8218a86/8cf31fda9edbbc02-7c/s1280x1920/f923a5e14801b29e381a517e76674faae11d939f.jpg"> 
+      <hr>
+    </section>
+    <section>
+      <h2>Please provide us with some of your personal info! (It helps us make more accurate conclusions)</h2>
+<form id="survey-form" action="https://somewhere.com">
+      <fieldset>
+        <legend>What does your mom call you?</legend>
+        <p class="note">Note:if it says "type something!" that means the field is required!!!!</p>
+        <label id="name-label"  class="first-name">Your first name: <input id="name" placeholder="type something!" type="text" required></label>
+        <label>Your middle name: <input type="text" placeholder="optional"></label>
+        <label>Your last name: <input placeholder="type something!" type="text" required></label>
+        <label id="number-label">Your date of birth: Month <select required>
+          <option value="">(select one)</option>
+          <option value="1">Jan</option>
+          <option value="2">Feb</option>
+          <option value="3">Mar</option>
+          <option value="4">Apr</option>
+          <option value="5">May</option>
+          <option value="6">Jun</option>
+          <option value="7">Jul</option>
+          <option value="8">Aug</option>
+          <option value="9">Sep</option>
+          <option value="10">Oct</option>
+          <option value="11">Nov</option>
+          <option value="12">Dec</option>
+          </select>
+           Day <select required>
+          <option value="">(select one)</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+          <option value="11">11</option>
+          <option value="12">12</option>
+          <option value="13">13</option>
+          <option value="14">14</option>
+          <option value="15">15</option>
+          <option value="16">16</option>
+          <option value="17">17</option>
+          <option value="18">18</option>
+          <option value="19">19</option>
+          <option value="20">20</option>
+          <option value="21">21</option>
+          <option value="22">22</option>
+          <option value="23">23</option>
+          <option value="24">24</option>
+          <option value="25">25</option>
+          <option value="26">26</option>
+          <option value="27">27</option>
+          <option value="28">28</option>
+          <option value="29">29</option>
+          <option value="30">30</option>
+          <option value="31">31</option>
+          </select>
+          Year <input id="number" min="1950" max="2003" placeholder="(from 1950-2003)" type="number" class="year" required></label>
+          <label id="email-label" >Email: <input type="email" id="email" placeholder="bobob@something.com" required placeholder="type something!"> 
+          <label>Gender: <select id="dropdown">
+            <option value="">(select one)</option>
+            <option value="1">Male</option>
+            <option value="2">Female</option>
+            <option value="3">Other</option>
+            </select>
+            </label>
+          </fieldset>
+          <hr>
+          <h2> The survey!!! </h2>
+          <fieldset>
+            <legend>Express yourself!</legend>
+            <p class="note"> It's all confidential! </p>
+            <label>Do you attend our weekly sporting events? 
+            <input class="attendance" required type="radio" value="1" name="attendance" > Yes </input>
+              <input class="attendance"type="radio" value="2"name="attendance"> No </input>
+            <input class="attendance" type="radio" value="3" name="attendance"> Sometimes </input>
+              </label>
+              <label>
+                <fieldset class="inside-field1">
+             <label> Select the sport you would be most excited about! (1st choice) <div class="top" ><input required type="radio" value="1" name="top-sport">Soccer</input>
+             <input value="2" type="radio" name="top-sport">Handball</input>
+             <input value="3" type="radio" name="top-sport">Golf</input></div></label>
+             </fieldset>
+             <fieldset class="inside-field2">
+             <label > Select the sport you would be excited but not that excited about! (2nd choice) <div class="top" ><input required type="radio" value="1" name="middle-sport">Soccer</input>
+             <input value="2"  type="radio" name="middle-sport">Handball</input>
+             <input value="3"  type="radio" name="middle-sport">Golf</input></div></label>
+             </fieldset>
+             <fieldset class="inside-field3">
+             <label> Select the sport you would be least excited about! (3rd choice) <div class="top" ><input value="1" required type="radio" name="bottom-sport">Soccer</input>
+             <input value="2" type="radio" name="bottom-sport">Handball</input>
+             <input value="3" type="radio" name="bottom-sport">Golf</input></div></label>
+             </fieldset>
+             <label>Check the aspects you most prioritize in your choice of sports!<div class="top"> <input value="1" type="checkbox" required> Speedy</input>
+             <div class="2"><input value="2" type="checkbox" required> Physical</input>
+             <div class="3"><input type="checkbox" value="3" required> Team game</input>
+             <div class="4"><input type="checkbox" value="4" required> Relaxing</input>
+             <div class="5"><input type="checkbox" value="5" required> Strength testing</input>
+             </label>
+             <label> Add a picture of yourself if you'd like! <input type="file"></input></label>
+             <label>Lastly, if there's anything you'd like to say, say it here!   
+               <textarea rows="3" cols="30">
+                 </textarea>
+                 </label>
+             <label>Accept our <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">terms and conditions</a> before you submit!  <input    class="button"type="checkbox" value="1" required> 
+             </input>          
+              <button   id="submit" type="submit">Submit!
+              </button>
+      </label>
+    </fieldset>
+  </section>
+</form>           
+  </main>
+</div>
+<footer>
+      <p> THANK YOU SO MUCH FOR TAKING YOUR TIME ON THIS!!!!!</p>
+      <p class="zein">ZeinDev.inc (All rights reserved)</p> 
+      </footer>
+</body>
+</html>

@@ -1,0 +1,143 @@
+body {
+  margin:0px;
+  font-family:Tahoma;
+  }
+.background-img {
+  background: linear-gradient(90deg,#234532 30%, #808080EE 70%), url("https://leverageedublog.s3.ap-south-1.amazonaws.com/blog/wp-content/uploads/2019/06/23160820/Career-in-Sports-01.png") no-repeat center center;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  filter: blur(8px);
+}
+
+
+.survey-form {
+width: 80%;
+background:rgba(255,255,255,0.8);
+margin-left: auto;
+margin-right: auto;
+padding: 50px 100px;
+max-width: 500px;
+margin-top:auto;
+margin-bottom:auto;
+}
+
+.header {
+text-align:center;
+margin:1em auto;
+}
+h2{
+  text-align:center;
+}
+
+.smirk {
+  display:block;
+  width:100px;
+  margin-left:auto;
+  margin-right:auto;
+}
+fieldset {
+  margin-right:-80;
+  margin-left:-70
+}
+.note {
+  margin-top:-1;
+  font-size:11;
+  color:red;
+}
+
+.first-name{
+  display:block;
+  margin:0.5rem 0;
+  margin-top:30;
+}
+label {
+  display:block;
+  margin:0.8rem 0;
+}
+
+.inside-field1 {
+  margin: 20;
+  margin-bottom:-50;
+}
+
+.top {
+  margin-top:10;
+}
+
+.inside-field2 {
+  margin: 20px;
+  margin-top:60px;
+
+}
+.inside-field3 {
+  margin:20px;
+  margin-top:-10px;
+}
+input[type="text"]:not(.year) {
+  width:600
+}
+input[type="email"]  {
+  width:600
+}
+.year {
+  width:150
+}
+
+textarea {
+  display:block;
+  margin-top:10px;
+  width:600px;
+}
+input, textarea, select {
+  background-color: rgba(255,255,255,0.1);
+  border: 1px solid #0a0a23;
+  color:#0a0a23;
+}
+fieldset{
+  border:0;
+}
+
+button {
+  background-color:rgba(255,255,255,0.1);
+  border:0.6px solid;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:50px;
+  width:300;
+  height:100px;
+  font-size:60
+}
+
+
+footer{
+  display:block;
+  margin:460 0 0 0;
+  text-align:center;
+  background-color:rgba(255,255,255,0.3);
+}
+.zein {
+  text-align:center;
+  font-size:11;
+  color:grey;
+}
+
+input[type="radio"]{
+  margin:0 1rem;
+}
+input[type="radio"]:not(.attendance){
+  margin:0 3rem
+}
+input[type="checkbox"]:not(.button){
+  margin:0.6rem 0 
+}
+
+.section1 {
+  margin-left:-50;
+  margin-right:-50;
+}
+
